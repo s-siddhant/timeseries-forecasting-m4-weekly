@@ -29,6 +29,7 @@ docker build -t weekly-backend .
 docker run -d -p 8000:8000 weekly-backend
 ```
   The FastAPI backend will be available at http://localhost:8000.
+  
 3. Frontend Setup
 ```
 cd ../frontend

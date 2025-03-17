@@ -19,7 +19,7 @@ This repository contains a complete implementation of a Weekly Forecasting Appli
 ## How to Run Locally
 1. Clone the Repository
 '''
-git clone https://github.com/your-username/weekly-forecasting-app.git
+git clone https://github.com/s-siddhant/timeseries-forecasting-m4-weekly.git
 cd weekly-forecasting-app
 '''
 2. Backend Setup

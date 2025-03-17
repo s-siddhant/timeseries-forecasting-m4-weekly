@@ -11,6 +11,7 @@ This repository contains a complete implementation of a Weekly Forecasting Appli
 - Visualized decompositions, predictions, and feature trends.
 
 ## Deployment features
+This application is deployed on Render at: https://m4-weekly-frontend.onrender.com/
 - Frontend: Interactive Streamlit application for data input and visualization of predictions.
 - Backend: FastAPI server that performs preprocessing and generates predictions using a pre-trained XGBoost model.
 - Machine Learning: Uses XGBoost for forecasting and includes preprocessing pipelines for feature engineering.

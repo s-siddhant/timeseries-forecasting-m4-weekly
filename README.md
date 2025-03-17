@@ -18,24 +18,23 @@ This repository contains a complete implementation of a Weekly Forecasting Appli
 
 ## How to Run Locally
 1. Clone the Repository
-'''
+```
 git clone https://github.com/s-siddhant/timeseries-forecasting-m4-weekly.git
 cd weekly-forecasting-app
-'''
+```
 2. Backend Setup
-'''
+```
 cd backend
 docker build -t weekly-backend .
 docker run -d -p 8000:8000 weekly-backend
-'''
+```
   The FastAPI backend will be available at http://localhost:8000.
 3. Frontend Setup
-
-'''
+```
 cd ../frontend
 docker build -t weekly-frontend .
 docker run -d -p 8501:8501 weekly-frontend
-'''
+```
 
 ## API Documentation
 1. Helthcheck:
@@ -46,21 +45,21 @@ docker run -d -p 8501:8501 weekly-frontend
    - URL: /predict
    - Method: POST
    - Request Body
-     '''
+     ```
      {
      "start_date": "YYYY-MM-DD",
      "target_values": [10.0, 15.0, 20.0]
      }
-     '''
+     ```
    - Response
-     '''
+     ```
      {
        "predictions": [
        { "date": "YYYY-MM-DD", "prediction": 25.0 },
        ...
        ]
      }
-     '''
+     ```
 
 ## Example Usage
 1. Navigate to the frontend URL.
